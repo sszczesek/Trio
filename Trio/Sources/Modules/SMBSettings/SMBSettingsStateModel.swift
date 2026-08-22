@@ -16,6 +16,7 @@ extension SMBSettings {
         @Published var allowSMBWithHighTemptarget: Bool = false
         @Published var enableSMB_high_bg: Bool = false
         @Published var enableSMB_high_bg_target: Decimal = 100
+        @Published var smbDeliveryRatio: Decimal = 0.5
         @Published var maxSMBBasalMinutes: Decimal = 30
         @Published var bolusIncrement: Decimal = 0.1 // get this from pump, dafuq?: Bool = false
         @Published var enableUAM: Bool = false
@@ -34,6 +35,7 @@ extension SMBSettings {
             subscribePreferencesSetting(\.enableSMB_high_bg, on: $enableSMB_high_bg) { enableSMB_high_bg = $0 }
             subscribePreferencesSetting(\.enableSMB_high_bg_target, on: $enableSMB_high_bg_target) {
                 enableSMB_high_bg_target = $0 }
+            subscribePreferencesSetting(\.smbDeliveryRatio, on: $smbDeliveryRatio) { smbDeliveryRatio = $0 }
             subscribePreferencesSetting(\.maxSMBBasalMinutes, on: $maxSMBBasalMinutes) { maxSMBBasalMinutes = $0 }
             subscribePreferencesSetting(\.bolusIncrement, on: $bolusIncrement) { bolusIncrement = $0 }
             subscribePreferencesSetting(\.enableUAM, on: $enableUAM) { enableUAM = $0 }
