@@ -199737,7 +199737,7 @@
         }
       }
     },
-    "Note: Allowed range is 30 - 70%" : {
+    "Note: Allowed range is 10 - 100%" : {
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -199754,19 +199754,19 @@
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bemærk: Tilladt interval er 30 - 70%"
+            "value" : "Bemærk: Tilladt interval er 10 - 100%"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hinweis: Erlaubter Bereich ist 30 - 70%"
+            "value" : "Hinweis: Erlaubter Bereich ist 10 - 100%"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nota: El rango permitido es de 30 - 70%"
+            "value" : "Nota: El rango permitido es de 10 - 100%"
           }
         },
         "fr" : {
@@ -199778,37 +199778,37 @@
         "he" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Note: Allowed range is 30 - 70%"
+            "value" : "Note: Allowed range is 10 - 100%"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nota: L'intervallo consentito è 30 - 70%"
+            "value" : "Nota: L'intervallo consentito è 10 - 100%"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Note: Allowed range is 30 - 70%"
+            "value" : "Note: Allowed range is 10 - 100%"
           }
         },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Merk: Tillatt område er 30 - 70 %"
+            "value" : "Merk: Tillatt område er 10 - 100 %"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opmerking: Toegestane bereik is 30 - 70%"
+            "value" : "Opmerking: Toegestane bereik is 10 - 100%"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uwaga: dozwolony zakres to 30 - 70"
+            "value" : "Uwaga: dozwolony zakres to 10 - 100"
           }
         },
         "pt-PT" : {
@@ -199820,7 +199820,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Note: Allowed range is 30 - 70%"
+            "value" : "Note: Allowed range is 10 - 100%"
           }
         },
         "ru" : {
@@ -199832,31 +199832,31 @@
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Obs: Tillåtet intervall är 30 - 70%"
+            "value" : "Obs: Tillåtet intervall är 10 - 100%"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Note: Allowed range is 30 - 70%"
+            "value" : "Note: Allowed range is 10 - 100%"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Примітка: Дозволений діапазон становить 30 - 70%"
+            "value" : "Примітка: Дозволений діапазон становить 10 - 100%"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lưu ý: Phạm vi cho phép là 30 - 70%"
+            "value" : "Lưu ý: Phạm vi cho phép là 10 - 100%"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "注意：允許範圍為 30 - 70%"
+            "value" : "注意：允許範圍為 10 - 100%"
           }
         }
       }

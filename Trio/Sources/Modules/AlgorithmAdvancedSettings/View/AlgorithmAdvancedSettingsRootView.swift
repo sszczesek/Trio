@@ -243,7 +243,7 @@ extension AlgorithmAdvancedSettings {
                         Text(
                             "Due to SMBs potentially occurring every 5 minutes with each loop cycle, it is important to set this value to a reasonable level that allows Trio to safely zero temp should dosing needs suddenly change. Increase this value with caution."
                         )
-                        Text("Note: Allowed range is 30 - 70%")
+                        Text("Note: Allowed range is 10 - 100%")
                     }
                 )
 
