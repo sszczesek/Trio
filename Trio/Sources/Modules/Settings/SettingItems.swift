@@ -136,6 +136,7 @@ enum SettingItems {
                 "Allow SMB With High Temporary Target",
                 "Enable UAM",
                 "Max SMB Basal Minutes",
+                "SMB Delivery Ratio",
                 "Max UAM SMB Basal Minutes",
                 "Max Allowed Glucose Rise for SMB"
             ],
