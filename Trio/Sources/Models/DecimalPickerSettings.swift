@@ -70,7 +70,7 @@ struct DecimalPickerSettings {
     var autosensMax = PickerSetting(value: 1.2, step: 0.05, min: 0.5, max: 3, type: PickerSetting.PickerSettingType.factor)
     var autosensMin = PickerSetting(value: 0.7, step: 0.05, min: 0.3, max: 1, type: PickerSetting.PickerSettingType.factor)
     // Intentionally expanded advanced-user limit for SMB delivery split guardrail.
-    var smbDeliveryRatio = PickerSetting(value: 0.5, step: 0.05, min: 0.1, max: 1.0, type: PickerSetting.PickerSettingType.factor)
+    var smbDeliveryRatio = PickerSetting(value: 0.5, step: 0.05, min: 0.3, max: 1.0, type: PickerSetting.PickerSettingType.factor)
     var halfBasalExerciseTarget = PickerSetting(
         value: 160,
         step: 5,
