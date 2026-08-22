@@ -220,34 +220,6 @@ extension AlgorithmAdvancedSettings {
                 )
 
                 SettingInputSection(
-                    decimalValue: $state.smbDeliveryRatio,
-                    booleanValue: $booleanPlaceholder,
-                    shouldDisplayHint: $shouldDisplayHint,
-                    selectedVerboseHint: Binding(
-                        get: { selectedVerboseHint },
-                        set: {
-                            selectedVerboseHint = $0.map { AnyView($0) }
-                            hintLabel = String(localized: "SMB Delivery Ratio", comment: "SMB Delivery Ratio")
-                        }
-                    ),
-                    units: state.units,
-                    type: .decimal("smbDeliveryRatio"),
-                    label: String(localized: "SMB Delivery Ratio", comment: "SMB Delivery Ratio"),
-                    miniHint: String(localized: "Percentage of calculated insulin required that is given as SMB."),
-                    verboseHint:
-                    VStack(alignment: .leading, spacing: 10) {
-                        Text("Default: 50%").bold()
-                        Text(
-                            "Once the total insulin required is calculated, this safety limit specifies what percentage of the insulin required can be delivered as an SMB."
-                        )
-                        Text(
-                            "Due to SMBs potentially occurring every 5 minutes with each loop cycle, it is important to set this value to a reasonable level that allows Trio to safely zero temp should dosing needs suddenly change. Increase this value with caution."
-                        )
-                        Text("Note: Allowed range is 30 - 70%")
-                    }
-                )
-
-                SettingInputSection(
                     decimalValue: $state.smbInterval,
                     booleanValue: $booleanPlaceholder,
                     shouldDisplayHint: $shouldDisplayHint,
